@@ -1749,7 +1749,8 @@ input:-internal-autofill-selected {
 	left: 0;
 	top: 0;
 	width: 100%;
-	z-index: 999
+	z-index: 999;
+	background-color: black;
 }
 
 .main_menu .navbar-brand {
@@ -1872,7 +1873,8 @@ input:-internal-autofill-selected {
 		color: #000 !important
 	}
 	.main_menu .navbar {
-		padding: 15px 0
+		padding: 0px 0;
+		height: 87px;
 	}
 	.navbar-light .navbar-toggler {
 		border-color: transparent;
@@ -1957,7 +1959,7 @@ input:-internal-autofill-selected {
 .banner_part {
 	height: 950px;
 	position: relative;
-	background-image: url(../img/hands.jpg);
+	background-image: url(../img/donate_small.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center
@@ -1966,7 +1968,7 @@ input:-internal-autofill-selected {
 @media (max-width: 991px) {
 	.banner_part {
 		height: 700px;
-		background-image: url(../img/hands.jpg);
+		background-image: url(../img/donate_small.jpg);
 		background-position: left
 	}
 }
@@ -2313,7 +2315,8 @@ input:-internal-autofill-selected {
 }
 
 .feature_part {
-	padding: 140px 0 110px
+	padding: 140px 0 110px;
+	    /*background-color: darkgray;*/
 }
 
 @media (max-width: 991px) {
@@ -3294,7 +3297,8 @@ input:-internal-autofill-selected {
 		margin-bottom: 20px
 	}
 	.volunteers_part .single_blog_item .single_blog_img img {
-		width: 100%
+		/*width: 100%*/
+		margin-left:55px;
 	}
 }
 
@@ -5588,7 +5592,7 @@ h6 {
 
 .footer-area {
 	background-color: #0d101d;
-	padding: 100px 0px 20px
+	padding: 6px 0px 0px
 }
 
 @media (max-width: 991px) {
@@ -5802,8 +5806,8 @@ h6 {
 }
 
 .footer-area .copyright_part_text {
-	padding-top: 26px;
-	margin-top: 112px;
+	padding-top: 0px;
+	margin-top: 0px;
 	border-top: 1px solid #262834
 }
 
@@ -5869,3 +5873,150 @@ h6 {
 .navbar-brand img{
 	height: 108px;
 }
+
+.vol_image .single_blog_img img{
+	border-radius: 9%;
+	max-height: 366px;
+}
+
+.clear{
+	    margin-top: 34px;
+}
+
+.talk_img{
+	margin: auto;
+	display: block;
+	}
+
+
+div.talk_block{
+	/*border: 2px solid #005780;*/
+    padding: 12px;
+    margin: 4px;
+    overflow: hidden;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    /* flex-direction: column; */
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid rgba(0,0,0,.125);
+    border-radius: .95rem;
+}
+
+.talk_img img{
+	max-width: 90px;
+	/*border: 2px solid #005780;*/
+    padding: 3px;
+    margin: 0px;
+    border-radius: .75rem;
+    margin-top: 14px;
+}
+
+.talk-image-name{
+	margin-bottom: 0px;
+	color: #757575;
+	text-align: center;
+	margin-top: -8px;
+	margin-left: -2em;
+}
+
+.quotation{
+  font-size: 18px;
+  /*//margin: 0 auto;*/
+  /*quotes: "\201C""\201D""\2018""\2019";*/
+  padding: 10px;
+  /*line-height: 1.4;*/
+  margin-top: 24px;
+}
+
+.quotation:before {
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 30px;
+  color: #ccc;
+  font-size: 3em;
+}
+.quotation::after {
+  content: close-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: 10px;
+  position: relative;
+  top: 35px;
+  color: #ccc;
+  font-size: 3em;
+}
+footer{
+  margin:0;
+  text-align: right;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.footer_2{
+	display: contents;
+}
+
+.social_icon a>i{
+	font-size: 3em;
+}
+
+.social_icon{
+	padding: 3em;
+    margin: auto;
+}
+
+.timeline_event_block{
+	padding: 12px;
+    margin: 4px;
+    overflow: hidden;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    /* flex-direction: column; */
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid rgba(0,0,0,.125);
+    border-radius: .95rem;
+}
+
+.about_img{
+	max-width: 10em;
+}
+
+.about_block{
+	border-radius: 17px;
+}
+
+.about_heading{
+	text-align: center;
+    border: 2px solid;
+    border-radius: 14px;
+}
+
+.about_points{
+	list-style-type: square;
+	margin-left: 26px;
+	padding: 20px;
+}
+
+.about_points li{
+	text-align: left;
+}
+
+.about_title{
+	margin-bottom: 0px;
+}
+

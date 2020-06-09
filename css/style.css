@@ -464,7 +464,7 @@ input:-internal-autofill-selected {
 	text-align: center;
 	font-size: 14px;
 	color: #fff;
-	background-color: #00c424;
+	background-color: #234b0a;
 	-o-transition: all .4s ease-in-out;
 	-webkit-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
@@ -1957,9 +1957,9 @@ input:-internal-autofill-selected {
 }
 
 .banner_part {
-	height: 950px;
+	height: 628px;
 	position: relative;
-	background-image: url(../img/donate_small.jpg);
+	background-image: url(../img/donate.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center
@@ -5519,7 +5519,7 @@ h6 {
 }
 
 .breadcrumb_bg {
-	background-image: url("../img/donate.jpeg");
+	background-image: url("../img/donate.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover
@@ -5527,7 +5527,7 @@ h6 {
 
 @media (max-width: 991px) {
 	.breadcrumb_bg {
-		background-image: url(../img/tab_banner.jpg);
+		background-image: url(../img/donate_small.jpg);
 		background-position: left
 	}
 }
@@ -5696,7 +5696,7 @@ h6 {
 }
 
 .footer-area .footer_2 .social_icon {
-	margin-top: 27px
+	margin-top: -39px;
 }
 
 .footer-area .footer_2 .social_icon a {
@@ -5876,7 +5876,7 @@ h6 {
 
 .vol_image .single_blog_img img{
 	border-radius: 9%;
-	max-height: 366px;
+	max-height: 343px;
 }
 
 .clear{
